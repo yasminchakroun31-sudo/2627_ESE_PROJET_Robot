@@ -1,6 +1,5 @@
-# 2627_ESE_PROJET_PAC-Man
+# 2627_ESE_PROJET_PAC-Man🤖🗑️
 PAC-Man 
-# 2627_ESE_PROJET_Robot 🤖🗑️
 
 ## Garbage Collector Robot - ENSEA Project
 
