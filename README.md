@@ -1,8 +1,6 @@
 # 2627_ESE_PROJET_PAC-Man🤖🗑️
 PAC-Man 
 
-## Garbage Collector Robot - ENSEA Project
-
 ### Équipe
 - **Yesmine Chakroun** (yasminechakroun31-sudo)
 - **Wejdene Hazami**
