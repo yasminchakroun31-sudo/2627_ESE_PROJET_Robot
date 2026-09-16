@@ -1,8 +1,19 @@
 # 2627_ESE_PROJET_Robot
 GARBAGE_COLLECTOR 
-## Équipe de Projet
-- **Yesmine Chakroun** (yasminchakroun31-sudo)
+# 2627_ESE_PROJET_Robot 🤖🗑️
+
+## Garbage Collector Robot - ENSEA Project
+
+### Équipe
+- **Yesmine Chakroun** (yasminechakroun31-sudo)
 - **Wejdene Hazami**
 - **Roua Jaouadi**
 
+### Objectif
+Concevoir un robot mobile qui repère, attrape, différencie et dépose des canettes en fonction de leur couleur.
 
+### Timeline
+- **Challenge:** 15 janvier 2027
+- **Fin semestre:** 16 janvier 2027
+
+### Structure du projet
