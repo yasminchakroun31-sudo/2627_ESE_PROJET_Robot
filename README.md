@@ -13,4 +13,4 @@ Concevoir un robot mobile qui repère, attrape, différencie et dépose des cane
 - **Challenge:** 15 janvier 2027
 - **Fin semestre:** 16 janvier 2027
 
-### Structure du projet
+
