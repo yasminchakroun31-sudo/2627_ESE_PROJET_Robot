@@ -12,5 +12,8 @@ fp-info-cache
 hardware/kicad/**/gerbers/
 hardware/kicad/**/*.zip
 
-# Préférences locales par projet
+# Preferences locales par projet
 *.kicad_prl
+
+# Historique local (extension editeur)
+hardware/kicad/robot_canettes/.history/
