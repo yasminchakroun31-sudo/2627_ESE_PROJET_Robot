@@ -1,0 +1,16 @@
+# Fichiers temporaires KiCad
+*.bak
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*.tmp
+*.lck
+fp-info-cache
+
+# Dossiers de sortie de fabrication
+hardware/kicad/**/gerbers/
+hardware/kicad/**/*.zip
+
+# Préférences locales par projet
+*.kicad_prl
