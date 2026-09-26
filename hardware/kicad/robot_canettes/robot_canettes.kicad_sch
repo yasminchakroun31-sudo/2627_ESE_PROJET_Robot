@@ -5,9 +5,39 @@
 	(uuid "67ea9330-6bd8-4bfd-bb5f-e77247705b59")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 182.88 49.53) (xy 205.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d5fe0b-e4ad-42c9-8db5-c059ac928bdf")
+	)
+	(wire
+		(pts
+			(xy 182.88 44.45) (xy 205.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a505625a-51ea-4d91-946a-5a25750c8185")
+	)
+	(wire
+		(pts
+			(xy 182.88 46.99) (xy 205.74 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be521d89-239f-40cf-be09-fbf6367936bc")
+	)
 	(sheet
-		(at 107.95 35.56)
-		(size 78.74 128.27)
+		(at 45.72 41.91)
+		(size 52.07 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +52,7 @@
 		)
 		(uuid "0d2e62ed-6bf0-41ca-b0b9-c6fd2c3353c4")
 		(property "Sheetname" "POWER_MANAGEMENT"
-			(at 107.95 34.8484 0)
+			(at 45.72 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +63,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER_MANAGEMENT.kicad_sch"
-			(at 107.95 164.4146 0)
+			(at 45.72 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +82,84 @@
 		)
 	)
 	(sheet
-		(at 17.78 35.56)
-		(size 80.01 128.27)
+		(at 205.74 39.37)
+		(size 38.1 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18019061-6b67-4462-b338-223d78003134")
+		(property "Sheetname" "SENSORS"
+			(at 205.74 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSORS.kicad_sch"
+			(at 205.74 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 205.74 44.45 180)
+			(uuid "f803eda9-ce7e-47d2-96d7-9d9acbe94c02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 205.74 46.99 180)
+			(uuid "2ded6e4c-7d65-4469-92b7-2070324b30f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MPU_INT" input
+			(at 205.74 49.53 180)
+			(uuid "f4a71d89-ff51-4602-adfa-835bd64c2d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "robot_canettes"
+				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 29.21)
+		(size 63.5 71.12)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -67,8 +173,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3f58a58d-8204-4b17-9646-a60f600133ec")
-		(property "Sheetname" "MCU_AND_SENSORS"
-			(at 17.78 34.8484 0)
+		(property "Sheetname" "MCU"
+			(at 119.38 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +185,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_AND_SENSORS.kicad_sch"
-			(at 17.78 164.4146 0)
+			(at 119.38 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +193,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 182.88 44.45 0)
+			(uuid "804d429c-1378-4fe2-96f1-5435a3e48cf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 182.88 46.99 0)
+			(uuid "62484935-d8e4-479d-b148-421b5f8186e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MPU_INT" input
+			(at 182.88 49.53 0)
+			(uuid "d1ebd05d-dc65-4aaf-94c4-88679f800548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -98,8 +234,8 @@
 		)
 	)
 	(sheet
-		(at 196.85 35.56)
-		(size 82.55 128.27)
+		(at 132.08 114.3)
+		(size 45.72 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +250,7 @@
 		)
 		(uuid "7ba74d93-6812-4e1d-b9dd-cd37ba11b0d3")
 		(property "Sheetname" "MOTOR_DRIVE"
-			(at 196.85 34.8484 0)
+			(at 132.08 113.5884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +261,7 @@
 			)
 		)
 		(property "Sheetfile" "MOTOR_DRIVE.kicad_sch"
-			(at 196.85 164.4146 0)
+			(at 132.08 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
