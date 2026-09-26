@@ -17,3 +17,4 @@ hardware/kicad/**/*.zip
 
 # Historique local (extension editeur)
 hardware/kicad/robot_canettes/.history/
+_restore_backup_*/
