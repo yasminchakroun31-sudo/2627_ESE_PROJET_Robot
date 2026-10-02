@@ -1625,6 +1625,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1917,12 +2056,6 @@
 		(uuid "8f693c22-56d7-4041-ac81-6cd7ae990604")
 	)
 	(junction
-		(at 106.68 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ddfbf9a-fa4b-47fe-9ea7-1348244316a1")
-	)
-	(junction
 		(at 128.27 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2104,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 62.23) (xy 107.95 62.23)
+			(xy 105.41 62.23) (xy 107.95 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2574,16 +2707,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 62.23) (xy 106.68 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65d2800-4e51-4141-8e4e-42b8d5dfe9a2")
-	)
-	(wire
-		(pts
 			(xy 190.5 69.85) (xy 223.52 69.85)
 		)
 		(stroke
@@ -2652,17 +2775,6 @@
 		)
 		(uuid "df58980b-8ce7-471e-b289-e8fb5249d7bc")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 55.88 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c3aac2f-7b54-4f18-9030-d360044ba942")
-	)
 	(hierarchical_label "MOTOR_A_IN1"
 		(shape input)
 		(at 85.09 67.31 180)
@@ -2673,17 +2785,6 @@
 			(justify right)
 		)
 		(uuid "2ed34bff-5cd5-4e9b-b393-50c115c682c1")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 163.83 130.81 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "413f5b5c-0dbd-479f-8645-73c2d39f21e1")
 	)
 	(hierarchical_label "MOTOR_B_C1"
 		(shape input)
@@ -3058,6 +3159,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 55.88 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa2fabb-cb01-40c1-ba76-5b91c4b1d817")
+		(property "Reference" "#PWR073"
+			(at 52.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.69 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 55.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d01f13c7-eefc-42c9-bec9-37de3ab997dc")
+		)
+		(instances
+			(project "robot_canettes"
+				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/7ba74d93-6812-4e1d-b9dd-cd37ba11b0d3"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 82.55 0)
 		(unit 1)
@@ -3220,84 +3400,6 @@
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/7ba74d93-6812-4e1d-b9dd-cd37ba11b0d3"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 106.68 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2075e789-cdec-4a7e-b901-f1452b85c33d")
-		(property "Reference" "#FLG06"
-			(at 106.68 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 106.68 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93c45e44-aacb-4cd6-a306-66fc4f296c16")
-		)
-		(instances
-			(project "robot_canettes"
-				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/7ba74d93-6812-4e1d-b9dd-cd37ba11b0d3"
-					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -4026,6 +4128,84 @@
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/7ba74d93-6812-4e1d-b9dd-cd37ba11b0d3"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 163.83 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6504dbed-7c99-4f09-afd7-8d7d0eb71690")
+		(property "Reference" "#PWR072"
+			(at 163.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 163.83 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56c8ecb3-ab2b-4595-bc81-4e44febef5b7")
+		)
+		(instances
+			(project "robot_canettes"
+				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/7ba74d93-6812-4e1d-b9dd-cd37ba11b0d3"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
