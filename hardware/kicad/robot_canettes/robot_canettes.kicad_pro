@@ -734,7 +734,7 @@
         "uuid": "67ea9330-6bd8-4bfd-bb5f-e77247705b59"
       }
     ],
-    "used_designators": "U1-10,#PWR1-127,#PWR135,C1-54,R1-45,#FLG1-14,J1-13,H101-104,TP1-3,Y1,LCSC1,D1-7,L1-2,Q1-7,SW1-2,TP_BAT1-2,TP_OTG1-2,TP_SCL_3-4,TP_SDA_3-4,TP_SYS1-2,TP_USB_5V1-2,JP1-2",
+    "used_designators": "L1-2,TP_SYS1-2,H101-104,LCSC1,Y1,#PWR1-127,#PWR135,J1-13,JP1-2,R1-45,TP1-3,TP_USB_5V1-2,TP_OTG1-2,#FLG1-14,TP_BAT1-2,TP_SDA_3-4,SW1-2,TP_SCL_3-4,Q1-7,C1-54,U1-10,D1-7",
     "variants": []
   },
   "sheets": [

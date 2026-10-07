@@ -2133,6 +2133,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 76.2 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "079f4422-0e91-469a-9c90-3fb5423e01ae")
+	)
 	(text "TOF1 Connector"
 		(exclude_from_sim no)
 		(at 149.86 36.83 0)
@@ -3342,100 +3352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 213.36 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2177d1f7-6599-436a-9918-686177f2dd7b")
-		(property "Reference" "J10"
-			(at 215.9 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 215.9 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 213.36 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f99cb853-b162-4e22-8e5e-10c3b52e5721")
-		)
-		(pin "2"
-			(uuid "5a901d5e-c31b-4fcd-8715-ffd397449409")
-		)
-		(pin "4"
-			(uuid "ae367d3b-5ecf-4d84-b857-60f82e1c2369")
-		)
-		(pin "1"
-			(uuid "d660503f-2f17-4c65-948c-36bca21e2a21")
-		)
-		(pin "5"
-			(uuid "58b1f38d-6753-4421-8461-cadfe3272666")
-		)
-		(pin "6"
-			(uuid "1ef5ead1-fe5b-4e49-92f3-b451a7277d1d")
-		)
-		(instances
-			(project "robot_canettes"
-				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 62.23 0)
 		(unit 1)
@@ -3623,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 193.04 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3828,6 +3744,100 @@
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 161.29 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e84369f-e373-4a73-aa46-fc907457e11b")
+		(property "Reference" "J11"
+			(at 163.83 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 163.83 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "43ee1623-edd3-4a1f-850d-48a45b8574c0")
+		)
+		(pin "6"
+			(uuid "f2265c3f-8ba7-449a-947a-06e363b35765")
+		)
+		(pin "2"
+			(uuid "a496d341-75dd-4c41-90a0-21a65247bca3")
+		)
+		(pin "3"
+			(uuid "ce3751fb-7b95-4414-aa83-c1798431c7ec")
+		)
+		(pin "1"
+			(uuid "14044095-5e86-433e-9630-ac6f78cfeb7a")
+		)
+		(pin "5"
+			(uuid "6ddfbfaa-95b7-4029-9f14-e2611c9f3aad")
+		)
+		(instances
+			(project "robot_canettes"
+				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4486,100 +4496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 161.29 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e2dc1be-dda7-43d1-8695-88b77b3630de")
-		(property "Reference" "J2"
-			(at 163.83 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 163.83 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 161.29 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "528fb924-0ab0-43e9-8c21-755722f92035")
-		)
-		(pin "2"
-			(uuid "0aa10976-cdfa-4d1c-981d-d4ad1736aa5a")
-		)
-		(pin "4"
-			(uuid "360149a3-a376-4971-973b-54e47b936e3a")
-		)
-		(pin "1"
-			(uuid "e9f97960-899b-496e-bd96-d8e3b30dd086")
-		)
-		(pin "5"
-			(uuid "846c661e-48c4-4c57-be0c-fb4381c01eb9")
-		)
-		(pin "6"
-			(uuid "ea0fa9f5-92ea-47bc-82f3-114e2c4221d6")
-		)
-		(instances
-			(project "robot_canettes"
-				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 241.3 59.69 0)
 		(unit 1)
@@ -4784,7 +4700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Horizontal"
 			(at 265.43 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5117,6 +5033,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 158.75 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e413d7e-39ac-4210-94a5-22a94d439b79")
+		(property "Reference" "J12"
+			(at 161.29 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 161.29 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal"
+			(at 158.75 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "a2043cee-5e48-4fdd-94f7-fe7aeef30ad5")
+		)
+		(pin "6"
+			(uuid "32704467-ca3c-40a8-aa00-ff6b1d682b46")
+		)
+		(pin "2"
+			(uuid "bfd62cf1-2e22-4ae6-9134-e72e1bbf7772")
+		)
+		(pin "3"
+			(uuid "0d6ae6ee-5b7c-41df-8b47-537a7277df21")
+		)
+		(pin "1"
+			(uuid "0754f2d2-94d9-4df5-98c6-acc0f42c3f0c")
+		)
+		(pin "5"
+			(uuid "bf6400ef-768e-42b0-8c2b-01417398601a")
+		)
+		(instances
+			(project "robot_canettes"
+				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 86.36 0)
 		(unit 1)
@@ -5381,100 +5391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 158.75 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b897a31a-92fb-4f42-a7b5-474d886bbcb8")
-		(property "Reference" "J11"
-			(at 161.29 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 161.29 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
-			(at 158.75 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "2f32772a-2d44-4055-9df4-209e7d3e55b3")
-		)
-		(pin "2"
-			(uuid "47998b7c-a2d1-4dae-9076-c7c72dbb05ec")
-		)
-		(pin "4"
-			(uuid "0da4bf0f-a2d9-43e7-b1e4-357af83665c1")
-		)
-		(pin "1"
-			(uuid "13b83b05-5714-448f-931e-f71ebc650cce")
-		)
-		(pin "5"
-			(uuid "338db94d-ab86-47c0-9e81-3e2753662219")
-		)
-		(pin "6"
-			(uuid "f7abdd26-cee7-4aa9-a9c3-62bf39c56510")
-		)
-		(instances
-			(project "robot_canettes"
-				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Motion:MPU-6050")
 		(at 62.23 105.41 0)
 		(unit 1)
@@ -5721,6 +5637,100 @@
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 213.36 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4c394c6-c621-4731-86dd-2f8169168465")
+		(property "Reference" "J10"
+			(at 215.9 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 215.9 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "c70578ed-3ec6-4ae7-a8f6-986c1cc07566")
+		)
+		(pin "6"
+			(uuid "30f662a8-0a8c-496d-a10e-d17b52a66a82")
+		)
+		(pin "2"
+			(uuid "b5c99f91-c970-40d5-bedb-ee482e089540")
+		)
+		(pin "3"
+			(uuid "cbc274d1-4a92-4db0-9250-288e77cf36b5")
+		)
+		(pin "1"
+			(uuid "0fc1b772-f3c7-4fcb-8b9b-fb31f3fe5468")
+		)
+		(pin "5"
+			(uuid "b904b451-c74a-451e-bae0-94896cda1879")
+		)
+		(instances
+			(project "robot_canettes"
+				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
+					(reference "J10")
 					(unit 1)
 				)
 			)
