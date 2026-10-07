@@ -6838,8 +6838,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 52.07 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7008,8 +7009,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 60.96 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7164,8 +7166,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 113.03 166.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7504,8 +7507,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 71.12 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7582,8 +7586,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 248.92 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7818,8 +7823,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 252.73 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8367,8 +8373,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 64.77 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9149,8 +9156,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 149.86 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9383,8 +9391,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 52.07 181.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9552,8 +9561,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 233.68 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10265,8 +10275,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 243.84 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10343,8 +10354,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 147.32 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10421,8 +10433,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 45.72 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

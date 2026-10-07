@@ -3062,8 +3062,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 111.76 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3139,8 +3140,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 120.65 86.614 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3309,8 +3311,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 143.51 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3386,8 +3389,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 188.214 71.374 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3636,8 +3640,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 181.61 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4272,8 +4277,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 91.44 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4443,7 +4449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A-1_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 228.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4626,7 +4632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A-1_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
 			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5219,8 +5225,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 49.53 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
