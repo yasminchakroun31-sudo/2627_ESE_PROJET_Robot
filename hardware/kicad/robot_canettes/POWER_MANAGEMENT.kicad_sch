@@ -8145,7 +8145,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C500740"
+		(property "JLCPCB Part #" "C2903499"
 			(at 152.4 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -14494,6 +14494,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 176.53 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C131337"
 			(at 176.53 161.29 0)
 			(hide yes)
 			(show_name no)

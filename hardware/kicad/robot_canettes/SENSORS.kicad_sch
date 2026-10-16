@@ -3575,6 +3575,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C131334"
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "88b2e6df-e52b-42bd-ad99-4b12d30b338d")
 		)
@@ -3810,6 +3821,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C131342"
 			(at 161.29 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4741,7 +4763,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART#" "C573320"
+		(property "JLCPCB PART#" "C157993"
 			(at 265.43 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5098,6 +5120,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C131342"
 			(at 158.75 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5709,6 +5742,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C131342"
 			(at 213.36 62.23 0)
 			(hide yes)
 			(show_name no)

@@ -9101,7 +9101,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C2691448"
+		(property "JLCPCB Part #" "C131334"
 			(at 265.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11086,29 +11086,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 215.9 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Parts Number" ""
-			(at 215.9 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C20617903"
+		(property "JLCPCB Part #" "C7484"
 			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
