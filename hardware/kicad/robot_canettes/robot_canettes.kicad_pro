@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.75,
-          "height": 1.75,
-          "width": 1.2
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -81,7 +81,32 @@
           "width": 0.261112
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|108500000|87000000|b29f0931-bc28-4406-89e0-e10a67df5d0a|b5f11e33-ec39-456b-90a7-3d462ce424e3",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|109000000|87250000|00f47d5c-1880-44e5-91eb-4d26770b170a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|91812500|92000000|bf0f7ff9-42a8-4e42-b104-d99b06306c23|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|107245000|86805000|de52fdcc-3785-4fbb-914f-16e5640dae84|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|108095000|87000000|b29f0931-bc28-4406-89e0-e10a67df5d0a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|108875000|87125000|06844b2e-3df4-4e2d-a8d2-82fb156bb8d1|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -131,7 +156,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -151,11 +176,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.19,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -164,10 +189,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -527,7 +552,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -545,10 +570,43 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
-        "name": "VBUS",
+        "clearance": 0.1,
+        "name": "+BATT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.36,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.1,
+        "name": "SYS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "name": "USB_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.36,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.1,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.36,
         "tuning_profile": "",
@@ -565,6 +623,18 @@
       {
         "netclass": "VBUS",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "SYS",
+        "pattern": "SYS"
+      },
+      {
+        "netclass": "USB_5V",
+        "pattern": "USB_5V"
+      },
+      {
+        "netclass": "+BATT",
+        "pattern": "+BATT"
       }
     ]
   },
@@ -572,7 +642,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Fab/Gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -602,7 +672,7 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
@@ -610,11 +680,11 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
-          "label": "Value",
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
@@ -622,31 +692,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -658,24 +728,18 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "JLCPCB Part #",
           "name": "JLCPCB Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB PART#",
-          "name": "JLCPCB PART#",
           "show": false
         },
         {
@@ -686,20 +750,26 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB PART #",
-          "name": "JLCPCB PART #",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "FieldJLCPCB Part #",
-          "name": "FieldJLCPCB Part #",
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Parts Number",
+          "name": "LCSC Parts Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
           "show": false
         }
       ],
@@ -708,7 +778,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -751,7 +821,7 @@
         "uuid": "67ea9330-6bd8-4bfd-bb5f-e77247705b59"
       }
     ],
-    "used_designators": "TP_SYS1-2,H101-104,JP1-2,L1-2,#PWR1-127,#PWR135,Y1,LCSC1,TP1-3,R1-45,#FLG1-14,TP_USB_5V1-2,TP_OTG1-2,TP_BAT1-2,SW1-2,TP_SDA_3-4,J1-13,TP_SCL_3-4,Q1-7,U1-10,D1-7,C1-54",
+    "used_designators": "TP_SYS1-2,H101-104,JP1-2,L1-2,NEOPIXEL1,#PWR1-127,#PWR135,Y1,LCSC1,TP1-3,R1-45,#FLG1-14,TP_USB_5V1-2,TP_OTG1-2,TP_BAT1-2,SW1-2,TP_SDA_3-4,J1-13,TP_SCL_3-4,Q1-7,U1-10,D1-7,C1-54,APDS1,Battery1,Servo1,Charging1",
     "variants": []
   },
   "sheets": [

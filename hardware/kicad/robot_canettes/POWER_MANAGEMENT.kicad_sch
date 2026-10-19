@@ -10301,7 +10301,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 45.72 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10580,7 +10580,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C72043"
+		(property "JLCPCB Part #" "C12624"
 			(at 172.72 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -11510,7 +11510,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 111.76 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11737,7 +11737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bac8281-6b7c-4d0d-9d1a-23d09f407f9c")
-		(property "Reference" "J4"
+		(property "Reference" "Charging1"
 			(at 35.56 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +11861,7 @@
 			)
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/0d2e62ed-6bf0-41ca-b0b9-c6fd2c3353c4"
-					(reference "J4")
+					(reference "Charging1")
 					(unit 1)
 				)
 			)
@@ -11934,7 +11934,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C107370"
+		(property "JLCPCB Part #" "C12530 "
 			(at 275.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12117,7 +12117,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 36.83 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12706,10 +12706,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88c772b4-8d97-4aff-b3e3-acfa53788b9a")
 		(property "Reference" "C42"
-			(at 212.09 52.0701 0)
+			(at 212.598 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13484,7 +13483,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 187.96 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13664,7 +13663,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14449,7 +14448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bafcd16b-d550-4c08-abc0-fc0a31ce5f9b")
-		(property "Reference" "J5"
+		(property "Reference" "Battery1"
 			(at 177.8 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14530,7 +14529,7 @@
 			)
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/0d2e62ed-6bf0-41ca-b0b9-c6fd2c3353c4"
-					(reference "J5")
+					(reference "Battery1")
 					(unit 1)
 				)
 			)
@@ -15256,7 +15255,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15438,7 +15437,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 229.87 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -15718,7 +15717,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C72043"
+		(property "JLCPCB Part #" "C12624"
 			(at 67.31 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -16011,7 +16010,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C72043"
+		(property "JLCPCB Part #" "C12624"
 			(at 157.48 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -16194,7 +16193,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 111.76 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16293,7 +16292,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C844714"
+		(property "JLCPCB Part #" "C25744"
 			(at 45.72 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -16564,7 +16563,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C8485"
+		(property "JLCPCB Part #" "C8545"
 			(at 54.61 180.34 0)
 			(hide yes)
 			(show_name no)

@@ -6734,8 +6734,7 @@
 		(dnp no)
 		(uuid "092663e0-75b3-44dc-a309-8240e8411351")
 		(property "Reference" "C5"
-			(at 81.28 49.5299 0)
-			(hide yes)
+			(at 75.438 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6789,7 +6788,7 @@
 				)
 			)
 		)
-		(property "#JLCPCB PART" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 78.74 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6960,7 +6959,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART#" "C15195"
+		(property "JLCPCB Part #" "C15195"
 			(at 134.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7288,7 +7287,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7457,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 45.72 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7891,8 +7890,7 @@
 		(dnp no)
 		(uuid "3e15621f-4332-4754-8ca5-29805d1d3702")
 		(property "Reference" "C7"
-			(at 91.44 49.5299 0)
-			(hide yes)
+			(at 86.106 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7946,7 +7944,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 88.9 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8117,7 +8115,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C123155"
+		(property "JLCPCB Part #" "C281766"
 			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8244,7 +8242,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C9900028921"
+		(property "Value" ""
 			(at 242.57 57.1501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8288,7 +8286,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C9900028921"
+		(property "JLCPCB Part #" "C3975190"
 			(at 231.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8493,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C141772"
+		(property "JLCPCB Part #" "C141772"
 			(at 128.27 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8588,7 +8586,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C174175"
+		(property "JLCPCB Part #" "C25744"
 			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8681,7 +8679,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C123155"
+		(property "JLCPCB Part #" "C281766"
 			(at 64.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9048,7 +9046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99f7dab9-ba09-419e-b74a-6f90843c1640")
-		(property "Reference" "J9"
+		(property "Reference" "NEOPIXEL1"
 			(at 264.795 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9127,7 +9125,7 @@
 		(instances
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/3f58a58d-8204-4b17-9646-a60f600133ec"
-					(reference "J9")
+					(reference "NEOPIXEL1")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9456,7 @@
 		(dnp no)
 		(uuid "b31157a8-4c90-4104-9a70-06f5f3a42db2")
 		(property "Reference" "C22"
-			(at 244.602 42.672 0)
+			(at 243.078 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9512,7 +9510,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 248.92 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9629,8 +9627,7 @@
 		(dnp no)
 		(uuid "bc0e343b-c529-4943-ae5b-1080fa7ff113")
 		(property "Reference" "C6"
-			(at 86.36 49.5299 0)
-			(hide yes)
+			(at 80.772 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9684,7 +9681,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 83.82 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9879,8 +9876,7 @@
 		(dnp no)
 		(uuid "c1db53d2-70f0-4eab-b946-cd78491bbfc3")
 		(property "Reference" "C8"
-			(at 96.52 49.5299 0)
-			(hide yes)
+			(at 91.186 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9934,7 +9930,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9972,8 +9968,7 @@
 		(dnp no)
 		(uuid "c79cd2da-1c57-4663-9074-7c7ba029db47")
 		(property "Reference" "C9"
-			(at 101.6 49.5299 0)
-			(hide yes)
+			(at 96.266 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10027,7 +10022,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 99.06 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10131,18 +10126,7 @@
 				)
 			)
 		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 63.5 83.82 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB PART #" "C13738"
+		(property "JLCPCB Part #" "C13738"
 			(at 78.74 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10541,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" " C431633 "
+		(property "JLCPCB Part #" " C431633 "
 			(at 111.76 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11006,6 +10990,17 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C19666"
+			(at 104.14 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c2c6f44-8a46-4a68-aa02-d119585606a2")
 		)
@@ -11303,7 +11298,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 140.97 46.99 0)
 			(hide yes)
 			(show_name no)

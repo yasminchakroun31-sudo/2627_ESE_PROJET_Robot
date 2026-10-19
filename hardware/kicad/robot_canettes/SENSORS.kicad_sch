@@ -3192,8 +3192,7 @@
 		(dnp no)
 		(uuid "15c6c377-0aec-4426-a740-690a49eb58b0")
 		(property "Reference" "C39"
-			(at 195.58 58.4199 0)
-			(hide yes)
+			(at 187.198 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3247,7 +3246,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3522,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a38a984-0193-4809-a1b5-7ecdad101a64")
-		(property "Reference" "J1"
+		(property "Reference" "ESP32"
 			(at 193.675 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3600,7 @@
 		(instances
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J1")
+					(reference "ESP32")
 					(unit 1)
 				)
 			)
@@ -3776,7 +3775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e84369f-e373-4a73-aa46-fc907457e11b")
-		(property "Reference" "J11"
+		(property "Reference" "TOF1"
 			(at 163.83 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,7 +3862,7 @@
 		(instances
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J11")
+					(reference "TOF1")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4012,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 85.09 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4264,7 +4263,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C174143"
+		(property "JLCPCB Part #" "C25879"
 			(at 267.97 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4591,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 241.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694fb404-8990-4acf-87ce-549f6099880e")
-		(property "Reference" "J3"
+		(property "Reference" "APDS1"
 			(at 267.97 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C573320"
+		(property "Value" "Conn_01x05"
 			(at 267.97 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4763,7 +4762,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART#" "C157993"
+		(property "JLCPCB Part #" "C157993"
 			(at 265.43 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4792,7 +4791,7 @@
 		(instances
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J3")
+					(reference "APDS1")
 					(unit 1)
 				)
 			)
@@ -4944,7 +4943,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 77.47 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4982,8 +4981,7 @@
 		(dnp no)
 		(uuid "99c973fc-2d70-4e3c-b6fe-ddc5b1e56876")
 		(property "Reference" "C40"
-			(at 143.51 58.4199 0)
-			(hide yes)
+			(at 135.382 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5037,7 +5035,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 140.97 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5075,7 +5073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e413d7e-39ac-4210-94a5-22a94d439b79")
-		(property "Reference" "J12"
+		(property "Reference" "TOF3"
 			(at 161.29 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +5160,7 @@
 		(instances
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J12")
+					(reference "TOF3")
 					(unit 1)
 				)
 			)
@@ -5260,7 +5258,6 @@
 		(uuid "b724b31d-4e5b-4b1e-89d8-5fa0a4ff80ab")
 		(property "Reference" "C43"
 			(at 213.36 130.8099 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5314,7 +5311,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 210.82 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5352,8 +5349,7 @@
 		(dnp no)
 		(uuid "b7a21a98-36c1-4cff-bb0a-5b6f88eb4e6c")
 		(property "Reference" "C41"
-			(at 140.97 130.8099 0)
-			(hide yes)
+			(at 133.096 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5407,7 +5403,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1525"
+		(property "JLCPCB Part #" "C1525"
 			(at 138.43 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +5496,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C24112"
+		(property "JLCPCB Part #" "C24112"
 			(at 62.23 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5659,7 +5655,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C174143"
+		(property "JLCPCB Part #" "C25879"
 			(at 260.35 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +5693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c394c6-c621-4731-86dd-2f8169168465")
-		(property "Reference" "J10"
+		(property "Reference" "TOF2"
 			(at 215.9 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,7 +5780,7 @@
 		(instances
 			(project "robot_canettes"
 				(path "/67ea9330-6bd8-4bfd-bb5f-e77247705b59/18019061-6b67-4462-b338-223d78003134"
-					(reference "J10")
+					(reference "TOF2")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5853,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C15195"
+		(property "JLCPCB Part #" "C15195"
 			(at 43.18 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6107,7 +6103,7 @@
 				)
 			)
 		)
-		(property "JLCPCB PART #" "C1531"
+		(property "JLCPCB Part #" "C1531"
 			(at 92.71 119.38 0)
 			(hide yes)
 			(show_name no)
