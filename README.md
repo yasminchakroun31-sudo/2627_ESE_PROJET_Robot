@@ -193,7 +193,7 @@ Capteurs utilisés : 3 ToF VL53L0X (avant, gauche, droite), 1 APDS-9960 (couleur
 stateDiagram-v2
     [*] --> ATTENTE
     ATTENTE --> RECHERCHE : START / init odométrie, compteurs = 0, tourner
-    RECHERCHE --> APPROCHE : OBJET_DETECTE / avancer
+    RECHERCHE/tourner  --> APPROCHE : OBJET_DETECTE / avancer
     APPROCHE --> RECHERCHE : OBJET_PERDU / tourner
     APPROCHE --> IDENTIFICATION : OBJET_PROCHE / arrêter, Neopixel ON, mesurer couleur
     IDENTIFICATION --> SAISIE : COULEUR_LUE [connue] / zone = f(couleur), fermer pince, timer 1 s
