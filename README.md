@@ -201,8 +201,10 @@ stateDiagram-v2
     SAISIE --> ORIENTATION : FIN_TIMER [canette présente] / calculer θ_cible et d_cible, pivoter
     SAISIE --> RECHERCHE : FIN_TIMER [canette absente] / ouvrir pince, tourner
     ORIENTATION --> TRANSPORT : ANGLE_ATTEINT / avancer de d_cible
-    TRANSPORT --> PAUSE : OBSTACLE / arrêter
+      TRANSPORT --> PAUSE : OBSTACLE / arrêter, timer 2 s
     PAUSE --> ORIENTATION : VOIE_LIBRE / recalculer, pivoter
+    PAUSE --> CONTOURNEMENT : FIN_TIMER / reculer 10 cm, pivoter 45°, timer 1 s
+    CONTOURNEMENT --> ORIENTATION : FIN_TIMER / recalculer, pivoter
     TRANSPORT --> DEPOT : DISTANCE_ATTEINTE / ouvrir pince, compteur++, reculer, timer 2 s
     DEPOT --> RAPPORT : FIN_TIMER / envoyer données à l'ESP32
     RAPPORT --> RECHERCHE : ENVOI_OK / tourner
